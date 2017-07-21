@@ -1,0 +1,33 @@
+header {
+  width: 100%;
+  display: inline-block;
+}
+.logo {
+  float: left;
+  display: inline;
+  border: 1px dotted black;
+}
+h1 {
+  font-family: Yellowtail;
+  font-weight: bold;
+  font-size: 28pt;
+  margin: 0px 1px;
+  position: relative;
+  width: 150px;
+  border: 1px dotted black;
+  /*float: left*/
+  display: inline-block;
+  padding-left: 0px;
+}
+header h2 {
+  /*float: left;*/
+  display: inline-block;
+  position: relative;
+  font-size: 8pt;
+  margin-top: 0px;
+}
+ li {
+  float: right;
+  display: inline;
+  margin: 1px;
+}
