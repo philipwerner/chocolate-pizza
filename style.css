@@ -156,3 +156,24 @@ hr.break2 {
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   border: 0;
 }
+.line {
+  display: inline;
+}
+.line hr.breakleft{
+  float: left;
+  width: 440px;
+	border-top: 1px solid grey;
+  margin-left: 140px;
+}
+.line img {
+  margin: 0 auto;
+  bottom: 8px;
+  position: relative;
+}
+.line hr.breakright{
+  float: right;
+  margin-left: 0px;
+  margin-right: 145px;
+  width: 440px;
+	border-top: 1px solid #8c8b8b;
+}
