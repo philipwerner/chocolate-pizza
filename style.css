@@ -5,6 +5,7 @@ header {
   width: 900px;
   height: 50px;
   margin: 0px auto;
+  margin-top: 30px;
 }
 .logo {
   float: left;
@@ -20,7 +21,6 @@ header {
   width: 325px;
 }
 .links {
-  border: 1px solid black;
   float: right;
   height: 50px;
   width: 300px;
@@ -36,29 +36,96 @@ header nav .links li {
   float: left;
   position: relative;
   margin: auto 2px;
+  bottom: 35px;
+  left: 75px;
+}
+main {
+  width: 100%;
+  display: inline-block;
 }
 .featured {
-  border: 1px solid black;
   width: 900px;
   heigth: 100px;
   display: inline-block;
-  margin: 20px auto;
+  margin: 0 auto;
+  left: 150px;
   position: relative;
 }
 .featured h2 {
   font-family: 'Teko';
   font-size: 32pt;
+  position: relative;
 }
 .featured h3 {
   display: inline;
   color: grey;
+  position: relative;
 }
 .featured h4 {
   display: inline;
   float: right;
   color: grey;
+  position: relative;
 }
 .hero {
   margin: 25px auto;
   display: block;
+}
+.instructions {
+  width: 900px;
+  margin: 0 auto;
+}
+.checklist {
+  border: 1px solid black;
+  width: 900px;
+  margin: 0 auto;
+  background-image: url(Images\list-bg.png);
+}
+.checklist ul {
+  display: inline;
+}
+.left {
+  float: left;
+  border: 1px solid black;
+  display: inline-block;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  margin-left: 50px;
+}
+.right {
+  display: inline-block;
+  border: 1px solid black;
+  width: 400px;
+  height: auto:
+  margin: 0 auto;
+}
+.author {
+  border: 1px solid black;
+  width: 900px;
+  height: 150px;
+  margin: 0 auto;
+}
+.vanessa {
+  display: inline-block;
+  float: left;
+  margin-right: 15px;
+}
+.author h3{
+  font-size: 18pt;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 18pt;
+}
+.author p {
+  margin-top: 10px;
+  width: 575px;
+  display: block;
+}
+button {
+  float: right;
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 150px;
 }
