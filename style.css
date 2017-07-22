@@ -6,9 +6,11 @@ header {
   height: 50px;
   margin: 0px auto;
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 .logo {
   float: left;
+  margin-right: 10px;
 }
 .inner h1 {
   font-family: 'Yellowtail';
@@ -48,6 +50,7 @@ main {
   heigth: 100px;
   display: inline-block;
   margin: 0 auto;
+  margin-top: 30px;
   left: 150px;
   position: relative;
 }
@@ -101,7 +104,7 @@ main {
   margin: 0 auto;
 }
 .author {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 900px;
   height: 150px;
   margin: 0 auto;
@@ -118,14 +121,38 @@ main {
   font-size: 18pt;
 }
 .author p {
+  font-size: 13pt;
   margin-top: 10px;
-  width: 575px;
+  width: 600px;
   display: block;
+  color: #333236;
 }
 button {
+  border-style: hidden;
   float: right;
   position: relative;
   display: inline-block;
   height: 60px;
-  width: 150px;
+  width: 210px;
+  background: #B05C36;
+  color: white;
+  margin: 0 auto;
+  bottom: 60px;
+}
+hr.break1 {
+  margin: 0 auto;
+  bottom: 20px;
+  position: relative;
+  width: 900px;
+	height: 8px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+}
+hr.break2 {
+  margin: 0 auto;
+  position: relative;
+  width: 900px;
+	height: 8px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
 }
