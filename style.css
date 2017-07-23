@@ -45,6 +45,7 @@ main {
   width: 100%;
   display: inline-block;
 }
+/*Featured Article*/
 .featured {
   width: 900px;
   heigth: 100px;
@@ -77,19 +78,26 @@ main {
 .instructions {
   width: 900px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
+/*Ingridients*/
 .checklist {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+  height: 325px;
   width: 900px;
   margin: 0 auto;
-  background-image: url(Images\list-bg.png);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #333236;
 }
 .checklist ul {
   display: inline;
 }
 .left {
+  bottom: 266px;
+  font-size: 16pt;
   float: left;
-  border: 1px solid black;
+  position: relative;
+  /*border: 1px solid black;*/
   display: inline-block;
   width: 400px;
   height: auto;
@@ -97,17 +105,25 @@ main {
   margin-left: 50px;
 }
 .right {
+  bottom: 266px;
+  font-size: 16pt;
+  position: relative;
   display: inline-block;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   width: 400px;
   height: auto:
   margin: 0 auto;
 }
+.checklist li {
+  margin-bottom: 10px;
+}
+/*Author Article*/
 .author {
   /*border: 1px solid black;*/
   width: 900px;
   height: 150px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 .vanessa {
   display: inline-block;
@@ -156,6 +172,7 @@ hr.break2 {
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
   border: 0;
 }
+/*Footer*/
 .line {
   display: inline;
 }
