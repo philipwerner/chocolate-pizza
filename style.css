@@ -1,6 +1,7 @@
 body {
   width: 1200px;
 }
+/*Header*/
 header {
   width: 900px;
   height: 50px;
@@ -79,6 +80,11 @@ main {
   width: 900px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+.instructions p {
+  text-indent: 30px;
+  font-size: 15pt;
+  line-height: 1.5;
 }
 /*Ingridients*/
 .checklist {
