@@ -82,6 +82,7 @@ main {
   margin-bottom: 30px;
 }
 .instructions p {
+  color: grey;
   text-indent: 30px;
   font-size: 15pt;
   line-height: 1.5;
@@ -99,11 +100,12 @@ main {
   display: inline;
 }
 .left {
+  color: grey;
   bottom: 266px;
   font-size: 16pt;
   float: left;
   position: relative;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   display: inline-block;
   width: 400px;
   height: auto;
@@ -111,6 +113,7 @@ main {
   margin-left: 50px;
 }
 .right {
+  color: grey;
   bottom: 266px;
   font-size: 16pt;
   position: relative;
@@ -172,6 +175,7 @@ hr.break1 {
 }
 hr.break2 {
   margin: 0 auto;
+  margin-top: 20px;
   position: relative;
   width: 900px;
 	height: 8px;
@@ -199,4 +203,19 @@ hr.break2 {
   margin-right: 145px;
   width: 440px;
 	border-top: 1px solid #8c8b8b;
+}
+footer {
+  /*border: 1px solid black;*/
+  height: 150px;
+}
+footer p {
+  color: grey;
+  margin: 0 auto;
+  width: 900px;
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.copyright {
+  margin-top: 20px;
 }
